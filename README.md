@@ -1,6 +1,64 @@
-# Getting Started with Create React App
+# YouTube Utilities
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a website that makes a call to the youtube api and provides some  
+ tools and functionalities.
+The user can pasete the url of any video or playlist from the youtube and,
+based on that, the program should make an yotube api request, and first
+of all, it should display the title of the video and then below that, it should
+display the total length (of a video if the url points to video or playlist if the  
+ url points to the playlist. And finally below that, it should print )
+
+# Audiophy
+
+Takes in the video or the playlist, and converts the video into an audio.
+It will have two button, a button to play and a button to download.
+play-> button will play the audio inside the browser. It will play at the
+normal speed and after clicking the play button, it will also have a
+pause button.
+download-> button will have a dropdown. The drop down will have
+mp3,mp4,wma,itunes Upon clicking on any of the dropdown menu,
+it should download the audio in that selected format
+
+# Textify
+
+Takes the transcript of the video and the playlist,
+and it converts the transcript to a text file. And it
+will have the button to view the text. Upon click,
+the program should view the text in the same
+window. And another button will be a dropdown
+that will give the user to download the transcript
+in pdf, doc, text
+
+# Sidebar
+
+The Sidebar will have three component i.e.
+trending, share, link to other project
+
+## Trending
+
+This will show the list of top 5 trending
+videos on youtube currently
+
+## Social
+
+This will show the social media icons
+which, upon click should share the link
+of the website (with some prewritten
+messages) to specific website
+
+                     Twitter:  Share to twitter
+
+                      Linkedin: Share to Linkedin
+
+                      Facebook: Share to Facebook
+
+                      Copy Link: Upon click, show a modal that has
+                                    the url with some written message and
+                                    give a button to copy link to clipboard
+
+## Advertisement
+
+Advertisement to my other works
 
 ## Available Scripts
 
@@ -28,43 +86,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
